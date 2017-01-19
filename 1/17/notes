@@ -1,0 +1,38 @@
+Lists, 
+
+
+Everything is taken by reference, the only way to destroy an object is to copy something onto it. 
+
+can also use the .remove() command. 
+
+xrange > range in py 2 because range actually creates the whole range, xrange creates on demand. 
+
+s = set(blah, 45, Z!)
+
+why are sets good? 
+ if problem can't have duplicates, use sets
+
+need duplicates? use lists, tuples etc...
+
+set is implimented as a hash_set. 
+
+Constructive Sequence Modification
+* Function takes a list of numbers and returns a new list of roots (keeps old list)
+
+* make a "shallow copy" of the list. list(list) < shallow copy only copies the list, not the (list) or something like that. 
+
+* import copy
+
+def sqrt_list_copy(a_list):
+    shallow_copy = copy.copy(a_list)
+
+* from copy import copy
+def sqrt_list_copy(a_list):
+    shallow_copy = copy(a_list)
+
+** Basically . = :: as python = c++
+
+
+
+
+
