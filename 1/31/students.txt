@@ -1,0 +1,2 @@
+John    Balbiro A1001   john.balbiro@usu.edu
+Alice   Nelson  A0011   alice.nelson@usu.edu
