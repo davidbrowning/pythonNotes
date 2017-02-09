@@ -70,3 +70,33 @@ try:
 except Exception, e:
     print('no can do boss(%s)' % e)
 
+############################################################################################################################
+# You can save an Object to a file in python
+#  pickle and unpickle (serialize and deserialize)
+#
+############################################################################################################################
+
+
+print('\n\n----------------------pickling objects---------\n\n')
+import pickle
+
+import sys
+
+with open(sys.argv[1], 'wb') as outfile:
+    lst = ['a', 'b', [1,2,3], 'c', 'd']
+    pickle.dump(lst, outfile)
+    print('Dumpted' + str(lst))
+
+with open(sys.argv[1], 'rb') as infile:
+    lst = None
+    lst = pickle.load(infile)
+
+    print('Loaded' +str(lst))
+
+print('checkout pick.pck in this directory')
+
+############################################################################################################################
+# use cPickle for super fast serialization (uses c with python overlay)
+#
+# import cPickle as pickle
+############################################################################################################################

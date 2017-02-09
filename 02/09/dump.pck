@@ -1,0 +1,14 @@
+(lp0
+S'a'
+p1
+aS'b'
+p2
+a(lp3
+I1
+aI2
+aI3
+aaS'c'
+p4
+aS'd'
+p5
+a.
