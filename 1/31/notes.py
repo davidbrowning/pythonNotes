@@ -1,7 +1,7 @@
 from datetime import datetime
 import sys
 
-# stored in sys.argv as strings. 
+# stored in sys.argv as strings.
 
 for argn, arg in zip(xrange(len(sys.argv)), sys.argv):
     print argn, '--->', arg
@@ -55,7 +55,7 @@ first_name_last_name_a_num = r'(\w+)\s*(\w+)\s*(A\d+).*'
 #    print '-----------'
 #    for groups in process_lines(file_path, make_info_extractor(a_num_and_email))
 #        print '\t'.join(groups)
-# 
+#
 
 
 # it didn't work :( see his source code on canvas python said line 46 was invalid syntax
